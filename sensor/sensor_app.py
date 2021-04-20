@@ -1,5 +1,5 @@
 # Runner script for all modules
-
+from load_data import load_sensor_data
 
 ##############################
 # Do not remove these two lines
