@@ -57,6 +57,6 @@ print("\nHouse Particle sensor records for date {} = {}".format(test_date.strfti
 concentrations = particle_data.get_data_concentrations(data=recs)
 print("\tGood Air Quality Recs: {}".format(concentrations["good"]))
 print("\tModerate Air Quality Recs: {}".format(concentrations["moderate"]))
-print("\tBad Air Quality Recs: {}".format(concentrations["bad"])
+print("\tBad Air Quality Recs: {}".format(concentrations["bad"]))
 
 # Module 5 code here:
